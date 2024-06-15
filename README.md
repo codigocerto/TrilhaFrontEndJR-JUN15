@@ -66,8 +66,8 @@ Se houver alguma observação adicional, por favor, inclua no corpo do pull requ
 
 ---
 
-### Inovação e Criatividade
-Achou esse projeto inicial simples? Então entregue mais! procuramos pessoas inovadoras que criem e inovem. Somos totalmente abertos à liberdade criativa!
+### Desafio da Inovação 🚀
+Achou esse projeto inicial simples? Eleve ainda mais! Estamos em busca de mentes inovadoras que não apenas criem, mas que também desafiem os padrões. Como você pode transformar essa estrutura inicial em algo verdadeiramente extraordinário? Demonstre o poder da sua criatividade e o impacto das suas ideias inovadoras!
 
 ---
 
