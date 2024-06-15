@@ -1,7 +1,7 @@
 ![Código Certo Coders](https://utfs.io/f/3b2340e8-5523-4aca-a549-0688fd07450e-j4edu.jfif)
 
 # 📚 Trilha Inicial Front-End Jr
-Este projeto tem como objetivo criar uma página web onde os candidatos podem se apresentar, compartilhar seus gostos pessoais e explicar por que desejam fazer parte da comunidade Codigo Certo Coders e participar de projetos voluntários.
+Este projeto tem como objetivo criar uma página web onde os candidatos podem se apresentar, compartilhar seus gostos pessoais e explicar por que desejam fazer parte da comunidade **Codigo Certo Coders** e participar de projetos voluntários.
 
 ## Estrutura da Página
 - **Foto:** Incluir uma foto pessoal.
@@ -37,7 +37,7 @@ Primordial: Utilizar as cores da paleta da **Codigo Certo Coders:**
 ### Dicas para Abordar o Projeto 🌟
 - **Crie um Fork desse Repositório.**
 - **Criar do Zero:** É fundamental que o projeto seja desenvolvido completamente do zero, demonstrando suas habilidades e criatividade desde o início.
-- **Atenção aos Detalhes Visuais:** Utilize as cores e elementos visuais de forma coesa para uma experiência impactante.
+- **Atenção aos Detalhes Visuais:** Utilize a paleta de cores e elementos visuais de forma coesa para uma experiência impactante.
 - **Versionamento com Git:** Faça uso eficiente do Git para controlar suas alterações e manter um histórico claro do desenvolvimento.
 
 ### Critérios de Avaliação: 📝
@@ -61,8 +61,7 @@ candidato estará impossibilitado de prosseguir para trilha final.
 **Data máxima para entrega: 29/06**
 
 ### Instruções de Entrega: 📬
-Após finalizar o projeto, publique-o em uma URL pública (por exemplo, Vercel, Netlify, GitHub Pages, etc.) e mande no [Formulário](https://forms.gle/gZViPMTSDV5nidSu6):  
-Se houver alguma observação adicional, por favor, inclua no corpo do pull request.
+Após finalizar o projeto, publique-o em uma URL pública (por exemplo, Vercel, Netlify, GitHub Pages, etc.) e preencha o [Formulário](https://forms.gle/gZViPMTSDV5nidSu6):  
 
 ---
 
