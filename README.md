@@ -18,7 +18,7 @@ Este projeto tem como objetivo criar uma página web onde os candidatos podem se
 - **Uso de Imagens:** Incluir pelo menos uma imagem (foto pessoal).
 
 Primordial: Utilizar as cores da paleta da **Codigo Certo Coders:**
-![Código Certo Coders](https://github.com/68vinicius/trilhafrontend/assets/167829379/2a11dc98-4619-49bc-b7c2-c08142e7ce21)
+![Codigo Certo Coders Cores](https://github.com/codigocerto/TrilhaFrontEndJR-JUN15/assets/170693068/5ced1a97-b2c6-4f54-836c-7b3e115f879f)
 - **#000000** (preto)
 - **#e53939** (vermelho)
 - **#ffffff** (branco)
@@ -34,12 +34,11 @@ Primordial: Utilizar as cores da paleta da **Codigo Certo Coders:**
 - **CSS bem estruturado.**
 - **Código limpo e bem organizado.**
 
-### Dicas: 🚀
+### Dicas para Abordar o Projeto 🌟
 - **Crie um Fork desse Repositório.**
-- **Atenção aos Detalhes Visuais.**
-- **Boas Práticas de Desenvolvimento.**
-- **Versionamento com Git.**
-- **Cumprimento dos Requisitos.**
+- **Criar do Zero:** É fundamental que o projeto seja desenvolvido completamente do zero, demonstrando suas habilidades e criatividade desde o início.
+- **Atenção aos Detalhes Visuais:** Utilize as cores e elementos visuais de forma coesa para uma experiência impactante.
+- **Versionamento com Git:** Faça uso eficiente do Git para controlar suas alterações e manter um histórico claro do desenvolvimento.
 
 ### Critérios de Avaliação: 📝
 - **Funcionalidade:** A aplicação deve atender à estrutura da página e aos requisitos definidos.
