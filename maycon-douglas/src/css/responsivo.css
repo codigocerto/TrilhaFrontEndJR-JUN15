@@ -1,0 +1,46 @@
+@media (max-width: 688px) {
+    .decricao-pessoal{
+        font-size: 15px;
+        padding-bottom: 5px;        
+    }
+
+    .gostos-pessoais {
+        text-align: center;
+    }
+
+    .gostos {
+        margin-left: 35px;
+    }
+
+    .motivacoes {
+        text-align: center;
+        margin-left: 35px;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .informacoes {
+        font-size: 20px;
+    }
+
+    .decricao-pessoal {
+        margin-left: 30px;
+        font-size: 15px;
+        margin-right: 10px;
+        text-align: justify;
+    }
+
+    .gostos {
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .motivacao {
+        margin-left: 30px;
+        margin-right: 15px;       
+        font-size: 15px;
+        text-align: justify;
+        padding-bottom: 10px;
+    }
+}
