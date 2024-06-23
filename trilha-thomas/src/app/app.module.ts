@@ -9,6 +9,8 @@ import { AboutComponent } from './components/navbar/about/about.component';
 import { InterestsComponent } from './components/navbar/interests/interests.component';
 import { MotivationsComponent } from './components/navbar/motivations/motivations.component';
 import { RegisteredUsersComponent } from './components/navbar/registered-users/registered-users.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HomeComponent } from './components/navbar/home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { RegisteredUsersComponent } from './components/navbar/registered-users/r
     AboutComponent,
     InterestsComponent,
     MotivationsComponent,
-    RegisteredUsersComponent
+    RegisteredUsersComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
