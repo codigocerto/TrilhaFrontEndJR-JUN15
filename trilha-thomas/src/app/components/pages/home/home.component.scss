@@ -1,17 +1,12 @@
 @import "../../../scss/colors.scss";
 @import "../../../scss/animations.scss";
 
-.home-section {
-  color: white;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 30px;
-  background-color: rgba($color: #000000, $alpha: 0.5);
-}
-
 .text-introduction {
   h2 {
     animation: shakeRight 1.5s alternate infinite;
   }
+
+  // linha divisória
   div {
     width: 80%;
     height: 1px;
@@ -26,26 +21,9 @@
   .social-icons {
     img {
       margin: 16px 20px 0 0;
-
       width: 40px;
     }
   }
-}
-
-.img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  position: relative;
-}
-
-.portrait-img {
-  width: 100%;
-  height: 90%;
-  border-radius: 40%;
-  z-index: 2;
-  animation: portraitOpacity 2s alternate infinite;
 }
 
 .circle-img {
@@ -62,24 +40,4 @@
 strong {
   color: $secondary-color;
   font-weight: bold;
-}
-
-@media (min-width: 270px) {
-  .home-section {
-    flex-direction: column;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media (min-width: 1024px) {
-  .home-section {
-    display: flex;
-    flex-flow: row-reverse nowrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 90vw;
-  }
 }

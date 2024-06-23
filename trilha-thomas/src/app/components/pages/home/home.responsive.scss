@@ -1,0 +1,75 @@
+@import "../../../scss/animations.scss";
+
+@media (min-width: 270px) {
+  .home-section {
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95vw;
+
+    color: white;
+    border-radius: 30px;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+  }
+
+  .text-introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    // adaptado para height 568
+    margin-top: 10px;
+
+    h1 {
+      font-size: auto;
+    }
+  }
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+
+    // adaptado para height 568
+    height: 40%;
+    margin-top: 40px;
+
+    .portrait-img {
+      width: 100%;
+      height: 90%;
+      border-radius: 40%;
+      z-index: 2;
+      animation: portraitOpacity 2s alternate infinite;
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .text-introduction {
+    // retirando adaptação height 568
+    margin-top: 0;
+  }
+
+  // retirando adaptação height 568
+  .img-container {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  // mudando flex-direction para lg
+  .home-section {
+    margin-top: 0;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+  }
+}
