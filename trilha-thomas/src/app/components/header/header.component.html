@@ -1,4 +1,4 @@
-<nav class="navbar d-flex align-items-center justify-content-center">
+<nav class="navbar">
   <ul class="nav d-flex flex-direction-column mt-2">
     <li routerLink="/motivation"><a>Motivações</a></li>
     <li routerLink="/about"><a>Sobre</a></li>
@@ -13,3 +13,15 @@
     <li routerLink="/coders-users"><a>Usuários Coders</a></li>
   </ul>
 </nav>
+<button
+  (click)="toggler()"
+  class="btn"
+  [ngClass]="{ 'toggle-btn': !isToggle, 'close-btn': isToggle }"
+></button>
+<ul *ngIf="isToggle" [ngClass]="{ 'menu-mobile': isToggle }">
+  <li (click)="toggler()" routerLink="">Início</li>
+  <li (click)="toggler()" routerLink="/motivation">Motivações</li>
+  <li (click)="toggler()">Sobre</li>
+  <li (click)="toggler()">Interesses</li>
+  <li (click)="toggler()">Coders</li>
+</ul>
