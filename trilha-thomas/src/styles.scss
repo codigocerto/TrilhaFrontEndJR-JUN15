@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/scss/bootstrap";
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap'";
+@import "~aos/dist/aos.css";
+
+* {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  color: white;
+
+  list-style-type: none;
+  cursor: pointer;
+}
