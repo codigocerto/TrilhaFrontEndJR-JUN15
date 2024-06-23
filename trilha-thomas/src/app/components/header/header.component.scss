@@ -1,0 +1,37 @@
+@import "../../scss/colors.scss";
+@keyframes paintBg {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: $secondary-color;
+  }
+}
+
+.nav {
+  border-radius: 100px;
+  border: 0px solid white;
+
+  gap: 20px;
+  padding: 5px;
+
+  background-color: rgb(26, 24, 24);
+
+  li {
+    padding: 10px;
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    flex: 1 1 50px;
+
+    &:hover {
+      background-color: $secondary-color;
+      animation-name: paintBg;
+      animation-duration: 1s;
+    }
+  }
+}
+
+.logo-img {
+  height: 30px;
+}
