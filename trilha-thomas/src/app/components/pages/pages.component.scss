@@ -1,0 +1,22 @@
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  height: 100%;
+}
+
+@media (min-width: 270px) {
+  .nav-section {
+    flex-direction: column;
+  }
+
+  .routers-render {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

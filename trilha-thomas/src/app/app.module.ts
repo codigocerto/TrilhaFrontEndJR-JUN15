@@ -4,31 +4,27 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { AboutComponent } from './components/navbar/about/about.component';
-import { InterestsComponent } from './components/navbar/interests/interests.component';
-import { MotivationsComponent } from './components/navbar/motivations/motivations.component';
-import { RegisteredUsersComponent } from './components/navbar/registered-users/registered-users.component';
+import { PagesComponent } from './components/pages/pages.component';
+import { AboutComponent } from './components/pages/about/about.component';
+import { InterestsComponent } from './components/pages/interests/interests.component';
+import { MotivationsComponent } from './components/pages/motivations/motivations.component';
+import { RegisteredUsersComponent } from './components/pages/registered-users/registered-users.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { HomeComponent } from './components/navbar/home/home.component';
+import { HomeComponent } from './components/pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    NavbarComponent,
+    PagesComponent,
     AboutComponent,
     InterestsComponent,
     MotivationsComponent,
     RegisteredUsersComponent,
-    HomeComponent
+    HomeComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

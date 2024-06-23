@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MotivationsComponent } from './components/navbar/motivations/motivations.component';
-import { AboutComponent } from './components/navbar/about/about.component';
-import { InterestsComponent } from './components/navbar/interests/interests.component';
-import { RegisteredUsersComponent } from './components/navbar/registered-users/registered-users.component';
-import { HomeComponent } from './components/navbar/home/home.component';
+import { MotivationsComponent } from './components/pages/motivations/motivations.component';
+import { AboutComponent } from './components/pages/about/about.component';
+import { InterestsComponent } from './components/pages/interests/interests.component';
+import { RegisteredUsersComponent } from './components/pages/registered-users/registered-users.component';
+import { HomeComponent } from './components/pages/home/home.component';
 
 const routes: Routes = [
   { path: 'motivation', component: MotivationsComponent },
