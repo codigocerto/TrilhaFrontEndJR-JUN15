@@ -11,6 +11,8 @@ import { MotivationsComponent } from './components/pages/motivations/motivations
 import { RegisteredUsersComponent } from './components/pages/registered-users/registered-users.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './components/pages/home/home.component';
+import { ChartModule } from 'primeng/chart';
+import { TimelineModule } from 'primeng/timeline';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,13 @@ import { HomeComponent } from './components/pages/home/home.component';
     RegisteredUsersComponent,
     HomeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgbModule,
+    ChartModule,
+    TimelineModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

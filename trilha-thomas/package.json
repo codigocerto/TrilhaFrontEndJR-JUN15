@@ -22,6 +22,8 @@
     "@popperjs/core": "^2.11.6",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
+    "chart.js": "^4.4.3",
+    "primeng": "^16.9.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
