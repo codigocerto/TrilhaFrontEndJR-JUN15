@@ -1,0 +1,26 @@
+//chartjs não aceita valores relativos
+@media (min-width: 270px) {
+  .about-text {
+    width: 90%;
+  }
+  .skills-container {
+    width: 300px;
+    height: 150px;
+  }
+  p-chart {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .about-text {
+    width: 40%;
+  }
+}
+@media (min-width: 992px) {
+  .skills-container {
+    width: 40%;
+  }
+  p-chart {
+    width: 100%;
+  }
+}
