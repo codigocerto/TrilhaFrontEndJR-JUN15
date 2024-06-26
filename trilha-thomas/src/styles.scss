@@ -24,3 +24,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: red rgb(0, 0, 0);
+}
