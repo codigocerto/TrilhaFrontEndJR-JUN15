@@ -1,11 +1,8 @@
-* {
-  scrollbar-width: thin;
-  scrollbar-color: red rgb(0, 0, 0);
-}
-
+@import "../../../scss/variables.scss";
 h1 {
   color: red;
 }
+
 .about-section {
   display: flex;
   flex-direction: row;
@@ -15,21 +12,7 @@ h1 {
 
   border-radius: 30px;
 
-  background-color: rgba($color: #000000, $alpha: 0.5);
+  background-color: $section-background-color;
 
   color: white;
-  overflow-y: auto;
-  height: 100vh;
-}
-.info-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 70vh;
-}
-
-.timeline-container {
-  height: 70vh;
 }

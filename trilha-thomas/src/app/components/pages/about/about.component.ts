@@ -20,24 +20,28 @@ export class AboutComponent implements AfterViewInit {
   constructor() {
     this.events = [
       {
-        status: 'Analista de Infraestrutura',
         date: '2018',
+        status: 'Analista de Infraestrutura',
       },
       {
-        status: '2022',
-        date: 'Início na Programação',
+        date: '2022',
+        status: 'Início na Programação',
       },
       {
-        status: 'Front End com Angular',
         date: '2023',
+        status: 'Front End com Angular',
       },
       {
-        status: 'Back End com Nodejs',
         date: '2024',
+        status: 'Back End com Nodejs',
       },
       {
-        status: 'Até 2025',
-        date: 'Migração de Carreira',
+        date: 'Até 2025',
+        status: 'Migração de Carreira',
+      },
+      {
+        date: '',
+        status: '...',
       },
     ];
   }

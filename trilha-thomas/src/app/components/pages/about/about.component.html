@@ -4,7 +4,7 @@
   data-aos-duration="1500"
 >
   <h1 class="mt-4">Quem sou?</h1>
-  <div class="info-container" data-aos="fade-right" data-aos-duration="3000">
+  <div class="info-container">
     <article class="about-text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ratione,
       eligendi saepe obcaecati ducimus fugiat et quas. Fuga fugiat numquam
@@ -14,21 +14,17 @@
       Exercitationem.
     </article>
 
-    <div
-      class="skills-container"
-      data-aos="fade-up-left"
-      data-aos-duration="3000"
-    >
+    <div class="skills-container">
       <p-chart type="bar" [data]="basicData" [options]="basicOptions"></p-chart>
     </div>
   </div>
-  <div class="timeline-container w-100 flex flex-wrap gap-6">
-    <h1 class="text-center mb-5">Timeline</h1>
-    <p-timeline class="w-full md:w-20rem" [value]="events">
+  <div class="timeline-container mt-5 w-100 gap-6">
+    <h1 class="text-center">Timeline</h1>
+    <p-timeline align="alternate" class="w-full md:w-20rem" [value]="events">
       <ng-template pTemplate="content" let-event>
-        <small class="p-text-secondary">
+        <p class="p-text-secondary">
           {{ event.date }}
-        </small>
+        </p>
       </ng-template>
       <ng-template class="text-status" pTemplate="opposite" let-event>
         {{ event.status }}
