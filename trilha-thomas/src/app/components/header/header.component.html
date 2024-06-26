@@ -1,5 +1,5 @@
 <nav class="navbar">
-  <ul class="nav d-flex flex-direction-column mt-2">
+  <ul class="nav d-flex flex-direction-column">
     <li routerLink="/motivation"><a>Motivações</a></li>
     <li routerLink="/about"><a>Sobre</a></li>
     <li routerLink="/">
@@ -13,11 +13,13 @@
     <li routerLink="/coders-users"><a>Usuários Coders</a></li>
   </ul>
 </nav>
+
 <button
   (click)="toggler()"
   class="btn"
   [ngClass]="{ 'toggle-btn': !isToggle, 'close-btn': isToggle }"
 ></button>
+
 <ul
   data-aos="zoom-out"
   data-aos-easing="ease-out-cubic"

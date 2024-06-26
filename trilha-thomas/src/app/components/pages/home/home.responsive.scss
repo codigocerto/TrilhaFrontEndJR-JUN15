@@ -1,17 +1,19 @@
 @import "../../../scss/animations.scss";
+@import "../../../scss/variables.scss";
 
 @media (min-width: 270px) {
   .home-section {
-    flex-direction: column;
-    height: 100vh;
+    width: 95vw;
+    height: $section-height-mobile;
+
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 95vw;
 
     color: white;
     border-radius: 30px;
-    background-color: rgba($color: #000000, $alpha: 0.5);
+    background-color: $section-background-color;
   }
 
   .text-introduction {
@@ -51,6 +53,11 @@
 }
 
 @media (min-width: 375px) {
+  // height para landscape
+  .home-section {
+    height: 100%;
+  }
+
   .text-introduction {
     // retirando adaptação height 568
     margin-top: 0;
@@ -71,5 +78,6 @@
     justify-content: space-around;
     align-items: center;
     width: 90vw;
+    height: $section-height;
   }
 }

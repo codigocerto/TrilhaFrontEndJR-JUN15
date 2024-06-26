@@ -1,11 +1,18 @@
 @import "./scss/colors.scss";
 
-.body {
-  height: 100vh;
-  background: url("../assets/bg-main.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  z-index: -1;
+.header {
+  display: block;
+  height: 80px;
+}
+
+@media (max-height: 800px) {
+  .body {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 20px;
+  }
 }
