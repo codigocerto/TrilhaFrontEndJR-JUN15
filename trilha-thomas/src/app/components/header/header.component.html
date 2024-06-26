@@ -19,17 +19,18 @@
   class="btn"
   [ngClass]="{ 'toggle-btn': !isToggle, 'close-btn': isToggle }"
 ></button>
-
-<ul
-  data-aos="zoom-out"
-  data-aos-easing="ease-out-cubic"
-  data-aos-duration="300"
-  *ngIf="isToggle"
-  [ngClass]="{ 'menu-mobile': isToggle }"
->
-  <li (click)="toggler()" routerLink="">Início</li>
-  <li (click)="toggler()" routerLink="/motivation">Motivações</li>
-  <li (click)="toggler()" routerLink="/about">Sobre</li>
-  <li (click)="toggler()" routerLink="/intersts">Interesses</li>
-  <li (click)="toggler()" routerLink="/coders-users">Coders</li>
-</ul>
+<div [ngClass]="{ 'menu-mobile': isToggle }">
+  <ul
+    class="menu-list"
+    data-aos="zoom-out"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="300"
+    *ngIf="isToggle"
+  >
+    <li (click)="toggler()" routerLink="">Início</li>
+    <li (click)="toggler()" routerLink="/motivation">Motivações</li>
+    <li (click)="toggler()" routerLink="/about">Sobre</li>
+    <li (click)="toggler()" routerLink="/intersts">Interesses</li>
+    <li (click)="toggler()" routerLink="/coders-users">Coders</li>
+  </ul>
+</div>
