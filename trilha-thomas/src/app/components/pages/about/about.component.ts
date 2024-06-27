@@ -1,4 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 interface EventItem {
   status?: string;
   date?: string;
@@ -11,7 +11,7 @@ interface EventItem {
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss', './about.responsive.scss'],
 })
-export class AboutComponent implements AfterViewInit {
+export class AboutComponent implements OnInit {
   basicData: any;
   basicOptions: any;
 
@@ -45,7 +45,7 @@ export class AboutComponent implements AfterViewInit {
       },
     ];
   }
-  ngAfterViewInit() {
+  ngOnInit() {
     this.basicData = {
       labels: [
         'Javascript',

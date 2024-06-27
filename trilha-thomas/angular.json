@@ -30,10 +30,7 @@
               "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
               "node_modules/primeng/resources/primeng.min.css"
             ],
-            "scripts": [
-              "node_modules/aos/dist/aos.js",
-              "node_modules/chart.js/dist/chart.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -53,7 +50,7 @@
             },
             "development": {
               "buildOptimizer": false,
-              "optimization": false,
+              "optimization": true,
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
