@@ -16,14 +16,6 @@
   .about-text {
     width: 100%;
   }
-  .skills-container {
-    width: 300px;
-    height: 150px;
-
-    p-chart {
-      width: 100%;
-    }
-  }
 
   .timeline-container {
     display: flex;
@@ -45,6 +37,11 @@
 }
 
 @media (min-width: 992px) {
+  .about-section {
+    h1 {
+      margin-top: 48px;
+    }
+  }
   .skills-container {
     width: 40%;
   }
