@@ -1,5 +1,3 @@
-@import "../../../scss/variables.scss";
-
 * {
   color: white;
 }
@@ -16,11 +14,6 @@
   }
 }
 
-* {
-  scrollbar-width: thin;
-  scrollbar-color: red rgb(0, 0, 0);
-}
-
 .text-container {
   width: 40%;
 
@@ -34,102 +27,4 @@
 
 strong {
   color: red;
-}
-@media (min-width: 270px) {
-  h1 {
-    font-weight: 800;
-    font-size: 1.3rem;
-  }
-
-  .motivation-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-
-    border-radius: 30px;
-
-    background-color: $section-background-color;
-
-    height: $section-height-mobile;
-
-    p {
-      font-size: 0.8rem;
-    }
-  }
-
-  .text-container {
-    width: 100%;
-
-    margin-top: 15px;
-    text-align: center;
-
-    p {
-      box-shadow: inset 0px -66px 58px -41px rgba(17, 16, 16, 0.8);
-      padding: 10px;
-      font-style: italic;
-      overflow-y: scroll;
-      max-height: 25vh;
-      font-size: 1rem;
-      font-weight: 100;
-    }
-  }
-
-  .image-container {
-    width: 60%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .motivation-img {
-      // 100% de 40% do parent
-      height: 100%;
-      width: 100%;
-      animation: floatY 3s ease-in-out infinite;
-    }
-  }
-}
-@media (min-width: 375px) {
-  // height para landscape
-  .motivation-section {
-    height: 100%;
-  }
-  .text-container {
-    p {
-      max-height: 35vh;
-    }
-  }
-}
-@media (min-width: 768px) {
-  .motivation-section {
-    height: $section-height;
-  }
-
-  .text-container {
-    width: 70%;
-    h1 {
-      font-size: auto;
-    }
-    p {
-      margin-top: 20px;
-      font-size: 1.5rem;
-    }
-  }
-  .image-container {
-    width: 40%;
-  }
-}
-
-@media (min-width: 992px) {
-  .text-container {
-    width: 50%;
-  }
-  .motivation-section {
-    width: 90vw;
-  }
-  .image-container {
-    width: 30%;
-  }
 }
