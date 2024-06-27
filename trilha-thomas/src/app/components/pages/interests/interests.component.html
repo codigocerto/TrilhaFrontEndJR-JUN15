@@ -1,1 +1,22 @@
-<p>interests works!</p>
+<section class="container interests-section">
+  <div class="content">
+    <div class="content-box g-5">
+      <div
+        class="box"
+        *ngFor="let item of boxes"
+        (mouseover)="teste(item.content, item.image)"
+      >
+        <img src="{{ item.icon }}" alt="" />
+      </div>
+    </div>
+    <div class="content-hover text-center">
+      <p class="mt-3" *ngIf="!content">** Passe o mouse sobre os quadros **</p>
+      <div *ngIf="content">
+        <div class="content-hover__img mt-3">
+          <h5 class="mb-3 text-center">{{ content }}</h5>
+          <img class="img-fluid" src="{{ image }}" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
