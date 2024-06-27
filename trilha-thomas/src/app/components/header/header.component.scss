@@ -1,12 +1,5 @@
 @import "../../scss/colors.scss";
-@keyframes paintBg {
-  from {
-    background-color: transparent;
-  }
-  to {
-    background-color: $secondary-color;
-  }
-}
+@import "../../scss/animations.scss";
 
 .navbar {
   display: flex;
