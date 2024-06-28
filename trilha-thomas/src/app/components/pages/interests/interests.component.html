@@ -1,20 +1,39 @@
-<section class="container interests-section">
+<section
+  class="container interests-section"
+  data-aos="fade-down"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="1500"
+>
   <div class="content">
-    <div class="content-box g-5">
+    <div
+      class="content-box g-5 img-fluid"
+      data-aos="fade-left"
+      data-aos-duration="3000"
+    >
       <div
         class="box"
         *ngFor="let item of boxes"
-        (mouseover)="teste(item.content, item.image)"
+        (mouseover)="showContent(item.content, item.image, item.alt)"
       >
-        <img src="{{ item.icon }}" alt="" />
+        <img src="{{ item.icon }}" [alt]="item.alt" />
       </div>
     </div>
-    <div class="content-hover text-center">
-      <p class="mt-3" *ngIf="!content">** Passe o mouse sobre os quadros **</p>
-      <div *ngIf="content">
+    <div
+      class="content-hover text-center"
+      data-aos="fade-right"
+      data-aos-duration="3000"
+    >
+      <p class="mt-3" *ngIf="!contentObj">
+        ** Passe o mouse sobre os quadros **
+      </p>
+      <div *ngIf="contentObj">
         <div class="content-hover__img mt-3">
-          <h5 class="mb-3 text-center">{{ content }}</h5>
-          <img class="img-fluid" src="{{ image }}" alt="" />
+          <h5 class="mb-3 text-center">{{ contentObj.content }}</h5>
+          <img
+            class="img-fluid"
+            src="{{ contentObj.image }}"
+            [alt]="contentObj.alt"
+          />
         </div>
       </div>
     </div>
