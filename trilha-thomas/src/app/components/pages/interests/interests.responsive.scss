@@ -1,0 +1,160 @@
+@import "../../../scss/variables.scss";
+
+@media (min-width: 270px) {
+  .interests-section {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .content-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: rem-calc(15);
+    width: 100%;
+    height: 100%;
+
+    .box {
+      width: rem-calc(40);
+      height: rem-calc(35);
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 60%;
+        height: 80%;
+      }
+    }
+
+    .box:hover {
+      background-color: red;
+      animation-name: paintBox;
+      animation-duration: 1s;
+    }
+  }
+
+  .content-hover {
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-hover__img {
+    img {
+      height: rem-calc(220);
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  .interests-section {
+    height: calc(100vh - 20px);
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .content {
+    overflow: auto;
+  }
+
+  .content-box {
+    gap: rem-calc(15);
+    margin-top: 20px;
+    display: flex;
+
+    align-content: center;
+    .box {
+      width: rem-calc(43);
+      height: rem-calc(40);
+    }
+  }
+  .content-hover__img {
+    img {
+      height: rem-calc(240);
+      width: 80%;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+
+  .interests-section {
+    height: $section-height;
+  }
+
+  .content-box {
+    gap: rem-calc(15);
+    // 100vh
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    width: 50%;
+
+    .box {
+      width: rem-calc(40);
+      height: rem-calc(40);
+    }
+  }
+  .content-hover__img {
+    width: 100%;
+    img {
+      // height: 80%;
+      width: 80%;
+    }
+  }
+
+  .content-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content-box {
+    width: 35%;
+  }
+
+  .content-box {
+    gap: rem-calc(15);
+    height: 100%;
+    display: flex;
+    align-content: center;
+    width: 50%;
+
+    .box {
+      width: 80px;
+      height: 80px;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .content-hover__img {
+    img {
+      width: 100%;
+      height: 80%;
+    }
+  }
+}
