@@ -1,0 +1,81 @@
+@import "../../../scss/variables.scss";
+@media (min-width: 270px) {
+  .education-section {
+    overflow: auto;
+    width: 95vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .certifications-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: 100%;
+    width: 100%;
+  }
+  .galleria-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .img-front {
+    height: 100%;
+  }
+  .thumbnail {
+    height: 60px;
+  }
+}
+
+@media (min-width: 375px) {
+  .education-section {
+    width: 95vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .certifications-container {
+    height: 100%;
+  }
+
+  .img-front {
+    height: 100%;
+  }
+  .thumbnail {
+    height: 60px;
+  }
+}
+
+@media (min-width: 568px) {
+  .education-section {
+    width: 95vw;
+    height: 100vh;
+  }
+
+  .certifications-container {
+    height: 100%;
+    flex-flow: row wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .education-section {
+    width: 95vw;
+    height: $section-height;
+  }
+  .certifications-container {
+    height: 100%;
+  }
+
+  .img-front {
+    height: 100%;
+  }
+  .thumbnail {
+    height: 60px;
+  }
+}
