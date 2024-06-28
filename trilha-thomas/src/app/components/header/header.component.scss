@@ -1,6 +1,10 @@
 @import "../../scss/colors.scss";
 @import "../../scss/animations.scss";
 
+.current-router {
+  background-color: $secondary-color;
+}
+
 .navbar {
   display: flex;
   align-items: center;

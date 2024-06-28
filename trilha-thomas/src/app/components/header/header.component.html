@@ -1,16 +1,26 @@
 <nav class="navbar">
   <ul class="nav d-flex flex-direction-column">
-    <li routerLink="/motivation"><a>Motivações</a></li>
-    <li routerLink="/about"><a>Sobre</a></li>
-    <li routerLink="/">
+    <li routerLinkActive="current-router" routerLink="/motivation">
+      <a>Motivações</a>
+    </li>
+    <li routerLinkActive="current-router" routerLink="/about"><a>Sobre</a></li>
+    <li
+      routerLinkActive="current-router"
+      [routerLinkActiveOptions]="{ exact: true }"
+      routerLink=""
+    >
       <img
         class="logo-img"
         src="../../../assets/favicon.png"
         alt="imagem da logo"
       />
     </li>
-    <li routerLink="/intersts"><a>Interesses</a></li>
-    <li routerLink="/coders-users"><a>Usuários Coders</a></li>
+    <li routerLinkActive="current-router" routerLink="/intersts">
+      <a>Interesses</a>
+    </li>
+    <li routerLinkActive="current-router" routerLink="/education">
+      <a>Formações</a>
+    </li>
   </ul>
 </nav>
 
@@ -31,6 +41,6 @@
     <li (click)="toggler()" routerLink="/motivation">Motivações</li>
     <li (click)="toggler()" routerLink="/about">Sobre</li>
     <li (click)="toggler()" routerLink="/intersts">Interesses</li>
-    <li (click)="toggler()" routerLink="/coders-users">Coders</li>
+    <li (click)="toggler()" routerLink="/education">Formações</li>
   </ul>
 </div>
