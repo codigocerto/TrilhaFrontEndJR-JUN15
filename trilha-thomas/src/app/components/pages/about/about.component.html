@@ -1,34 +1,47 @@
 <section
   class="container about-section"
   data-aos="fade-down"
+  data-aos-easing="ease-out-cubic"
   data-aos-duration="1500"
 >
   <h1 class="mt-4">Quem sou?</h1>
-  <div class="info-container">
-    <article class="about-text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ratione,
-      eligendi saepe obcaecati ducimus fugiat et quas. Fuga fugiat numquam
-      explicabo nulla assumenda quos, placeat beatae dolor harum quasi itaque!
-      Unde, nisi earum ratione explicabo aliquam a alias itaque magnam, pariatur
-      ipsa quibusdam animi obcaecati reprehenderit dolor odio architecto.
-      Exercitationem.
-    </article>
-
-    <div class="skills-container">
-      <p-chart type="bar" [data]="basicData" [options]="basicOptions"></p-chart>
-    </div>
-  </div>
-  <div class="timeline-container mt-5 w-100 gap-6">
-    <h1 class="text-center">Timeline</h1>
-    <p-timeline align="alternate" class="w-full md:w-20rem" [value]="events">
-      <ng-template pTemplate="content" let-event>
-        <p class="p-text-secondary">
-          {{ event.date }}
+  <div class="external-content">
+    <div class="info-container">
+      <article class="about-text">
+        <p>
+          Thomas Edson, 25 anos, 4º Semestre em Engenharia de Software e último
+          semestre de Análise e Desenvolvimento de Sistemas. Atualmente sou
+          militar na Marinha do Brasil, atuo na área de T.I nos complexos
+          militares como suporte técnico e sysadmin. Sempre gostei de
+          computadores e áreas correlatas, quando criança era demasiadamente
+          curioso, gostava de desmontar os equipamentos eletrônicos, celulares,
+          computadores e afins, aos 14 comecei a estudar cyber security
+          utilizando as ferramentas fornecidos pelo Kali Linux, mas só aos 20
+          anos comecei a estudar programação. Hoje busco transição de carreira
+          para a área de Desenvolvimento Web que sempre fora minha paixão.
         </p>
-      </ng-template>
-      <ng-template class="text-status" pTemplate="opposite" let-event>
-        {{ event.status }}
-      </ng-template>
-    </p-timeline>
+      </article>
+
+      <div class="skills-container">
+        <p-chart
+          type="bar"
+          [data]="basicData"
+          [options]="basicOptions"
+        ></p-chart>
+      </div>
+    </div>
+    <div class="timeline-container w-100">
+      <h1 class="text-center">Timeline</h1>
+      <p-timeline align="alternate" class="w-full md:w-20rem" [value]="events">
+        <ng-template pTemplate="content" let-event>
+          <p class="p-text-secondary">
+            {{ event.date }}
+          </p>
+        </ng-template>
+        <ng-template class="text-status" pTemplate="opposite" let-event>
+          {{ event.status }}
+        </ng-template>
+      </p-timeline>
+    </div>
   </div>
 </section>
