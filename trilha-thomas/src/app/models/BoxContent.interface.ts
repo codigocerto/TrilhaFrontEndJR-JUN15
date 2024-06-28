@@ -1,6 +1,6 @@
 export interface boxContent {
-  id: number;
-  icon: string;
+  alt: string;
+  icon?: string;
   content: string;
-  image?: string;
+  image: string;
 }
