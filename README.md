@@ -54,12 +54,6 @@ Primordial: Utilizar as cores da paleta da **Codigo Certo Coders:**
 ### Prazo ⏳
 A data máxima para entrega das trilhas foi removida, permitindo que as pessoas entreguem conforme sua disponibilidade. No entanto, ainda é necessário concluir a trilha com sucesso para ser inserido em uma equipe.
 
-A conclusão da trilha inicial é um requisito obrigatório para avançar para a trilha 
-final. Caso a trilha inicial não seja concluída dentro do prazo estabelecido, o 
-candidato estará impossibilitado de prosseguir para trilha final.
-
-**Data máxima para entrega: 29/06**
-
 ### Instruções de Entrega: 📬
 Após finalizar o projeto, publique-o em uma URL pública (por exemplo, Vercel, Netlify, GitHub Pages, etc.) e preencha o [Formulário](https://forms.gle/gZViPMTSDV5nidSu6):  
 
