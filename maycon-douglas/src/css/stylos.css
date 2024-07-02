@@ -1,0 +1,111 @@
+body {
+    background-color: #000000;
+}
+
+.card {
+    padding-top: 30px;
+    
+}
+
+.card img {
+    width: 250px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px  #ffffff;
+}
+
+.card img:hover {
+    border: 3px solid #e53939;
+    transition: 350ms linear;
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+.informacoes {
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 40px;
+    padding-bottom: 10px;
+    color:  #ffffff;
+}
+
+.informacoes:hover {
+    color: #e53939;
+    
+}
+
+.age {
+    margin-left: 45px;
+    font-weight: 400;
+    font-size: 20px;
+    color:  #ffffff;
+}
+
+.age span {
+    color: #e53939;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.decricao-pessoal {
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 45px;
+    padding-top: 10px;
+    color:  #ffffff;    
+}
+
+hr {
+    border: 1px solid #e53939;
+    margin: 5px auto;
+}
+
+.gostos-pessoais {
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 40px;
+    color:  #ffffff;
+   
+}
+
+.gostos-pessoais:hover {
+    color: #e53939;
+}
+
+.gostos {
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 45px;
+    color:  #ffffff;   
+}
+
+.motivacoes {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 40px;
+    padding-top: 15px;
+    color:  #ffffff;
+}
+
+.motivacoes:hover {
+    color: #e53939;
+}
+
+.motivacao {
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 45px;
+    color:  #ffffff;  
+}
+
+.motivacao span {
+    color: #e53939;
+    font-weight: 500;
+    font-size: 20px;
+}
