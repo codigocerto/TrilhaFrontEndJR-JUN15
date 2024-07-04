@@ -1,5 +1,5 @@
 /* =============== *\
-# CSS VARIABLES 
+  CSS VARIABLES 
 \* =============== */
 :root{
     /*Colors*/
@@ -10,7 +10,7 @@
     --bg-color: #000000;
     --bg-color-alt: #30353b;
     --container-color: #1d222a;
-    --border-color: hsl(210,2%,65%);
+    --border-color: #a4a6a8;
     --first-gradient: linear-gradient(
       0deg,
       var(--bg-color-alt) 0%,
@@ -33,4 +33,54 @@
     --normal-font-size: 16px;
     --small-font-size: 15px;
     --smaller-font-size: 14px;
+}
+
+/* =============== *\
+  Custom CSS Reset
+\* =============== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg-color);
+  font-family: var(--body-font);
+  color: var(--text-color);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+input, button, textarea {
+  font: inherit;
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+p {
+  overflow-wrap: break-word;
+  font-family: var(--second-font);
+}
+
+#site-logo {
+  max-width: 250px;
 }
