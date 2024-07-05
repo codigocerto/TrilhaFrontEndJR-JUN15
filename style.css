@@ -18,7 +18,7 @@
     ); 
   
     /*Typography*/
-    --body-font: 'Inter', sans-serif;
+    --body-font: 'Montserrat', sans-serif;
     --second-font: 'Roboto', sans-serif;
   
     --biggest-font-size: 90px;
@@ -81,6 +81,48 @@ p {
   font-family: var(--second-font);
 }
 
+/* =============== *\
+  Header/ Intro
+\* =============== */
+
 #site-logo {
-  max-width: 250px;
+  max-width: 315px;
+}
+
+.nav-item a:hover {
+  color: var(--primary-color);
+  text-underline-offset: 15px;
+  text-decoration: underline;
+  transition: color 300ms linear;
+}
+
+.intro-section {
+  background: url('assets/banner-intro.png') no-repeat top / cover fixed;
+  height: 600px;
+}
+
+.intro-section .container {
+  padding-bottom: 30px;
+}
+
+.intro-section p {
+  padding-top: 1rem;
+  text-shadow: 0.5px 0.5px #000;
+  font-size: var(--largest-font-size);
+}
+
+.intro-section p span {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.intro-section::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  width: 1px;
+  height: 250px;
+  bottom: -80px;
+  left: 50%;
+  display: block;
 }
