@@ -192,16 +192,17 @@ a {
   height: 400px;
 }
 
-.row.position-absolute{
+.row.absolute{
+  position: absolute;
   width: 100%;
   left: 0;
 }
 
-.row.position-absolute .motivation-img {
+.row.absolute .motivation-img {
   padding: 0;
 }
 
-.row.position-absolute .motivation-block {
+.row.absolute .motivation-block {
   position: relative;
   height: 550px;
   top: -115px;
@@ -213,7 +214,7 @@ a {
   background-color: var(--primary-color);
 }
 
-.row.position-absolute .motivation-block::before {
+.row.absolute .motivation-block::before {
   content: '';
   background-image: url(assets/motivations-background.png);
   background-size: contain;
@@ -250,3 +251,73 @@ a.social-link i {
   font-size: var(--h2-font-size);
 }
 
+/* =============== *\
+  MOBILE CSS
+\* =============== */
+
+@media only screen and (max-width: 600px){
+
+  .intro-section::after {
+    display: none;
+  }
+
+  .about-icons img {
+    width: 50%;
+  }
+
+  .motivation-section .motivation-col {
+    height: 100%;
+  }
+
+  .row.absolute {
+    position: relative;
+  }
+
+  .row.absolute .motivation-img {
+    display: none;
+  }
+
+  .row.absolute .motivation-block {
+    height: 560px;
+    top: 0;
+  }
+
+  .motivation-block p {
+    text-align: justify;
+  }
+}
+
+/* =============== *\
+  TABLET/IPAD CSS
+\* =============== */
+@media only screen and (min-width: 600px) and (max-width: 1024px){
+
+  .intro-section::after {
+    display: none;
+  }
+
+  .about-icons img {
+    width: 120%;
+  }
+
+  .motivation-section .motivation-col {
+    height: 100%;
+  }
+
+  .row.absolute {
+    position: relative;
+  }
+
+  .row.absolute .motivation-img {
+    display: none;
+  }
+
+  .row.absolute .motivation-block {
+    height: 320px;
+    top: 0;
+  }
+
+  .motivation-block p {
+    text-align: justify;
+  }
+}
