@@ -22,7 +22,7 @@
     --second-font: 'Roboto', sans-serif;
 
     --h2-font-size: 35px;
-    --largest-font-size: 21px;
+    --largest-font-size: 20px;
     --smaller-font-size: 14px;
 }
 
@@ -69,7 +69,7 @@ input, button, textarea {
 
 p {
   overflow-wrap: break-word;
-  font-family: var(--second-font);
+  font-family: var(--second-font) !important;
 }
 
 /* =============== *\
@@ -87,8 +87,10 @@ section.section {
   padding-block: 4rem;
 }
 
-p {
+p,
+.accordion-body {
   text-align: justify;
+  font-family: var(--second-font);
 }
 
 p span {
@@ -175,4 +177,19 @@ s
 
 .accordion-body {
   padding-block: 2rem;
+}
+
+/* =============== *\
+  Motivations
+\* =============== */
+.row .position-absolute{
+  width: 100%;
+  left: 0;
+  padding-bottom: 4rem;
+}
+
+.row .position-absolute .col-md-4 {
+  position: relative;
+  height: 550px;
+  top: -70px;
 }
