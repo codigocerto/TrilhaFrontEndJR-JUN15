@@ -70,6 +70,7 @@ input, button, textarea {
 p {
   overflow-wrap: break-word;
   font-family: var(--second-font) !important;
+  color: var(--text-color);
 }
 
 /* =============== *\
@@ -84,7 +85,7 @@ p {
 }
 
 section.section {
-  padding-block: 4rem;
+  padding-block: 5rem;
 }
 
 p,
@@ -182,14 +183,44 @@ s
 /* =============== *\
   Motivations
 \* =============== */
-.row .position-absolute{
+.row.position-absolute{
   width: 100%;
   left: 0;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 }
 
-.row .position-absolute .col-md-4 {
+.row.position-absolute .motivation-img {
+  padding: 0;
+}
+
+.row.position-absolute .motivation-block {
   position: relative;
   height: 550px;
-  top: -70px;
+  top: -115px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline: 3rem;
+  background-color: var(--primary-color);
+}
+
+.row.position-absolute .motivation-block::before {
+  content: '';
+  background-image: url(assets/motivations-background.png);
+  background-size: contain;
+
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+
+.motivation-block p {
+  font-size: 18px;
+  text-align: right;
+  z-index: 2
 }
