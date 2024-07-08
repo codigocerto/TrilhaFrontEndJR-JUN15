@@ -99,6 +99,11 @@ p span {
   font-weight: 700;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* =============== *\
   Header/ Intro
 \* =============== */
@@ -106,7 +111,7 @@ p span {
 #site-logo {
   max-width: 315px;
 }
-s
+
 .nav-item a:hover {
   color: var(--primary-color);
   text-underline-offset: 15px;
@@ -183,10 +188,13 @@ s
 /* =============== *\
   Motivations
 \* =============== */
+.motivation-section .motivation-col {
+  height: 400px;
+}
+
 .row.position-absolute{
   width: 100%;
   left: 0;
-  padding-bottom: 5rem;
 }
 
 .row.position-absolute .motivation-img {
@@ -222,5 +230,23 @@ s
 .motivation-block p {
   font-size: 18px;
   text-align: right;
-  z-index: 2
+  z-index: 2;
 }
+
+/* =============== *\
+  Footer
+\* =============== */
+
+footer .footer-section {
+  padding-block: 2rem;
+}
+
+.footer-section a:hover {
+  color: var(--primary-color);
+  transition: color 300ms linear;
+} 
+
+a.social-link i {
+  font-size: var(--h2-font-size);
+}
+
