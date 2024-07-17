@@ -2,37 +2,50 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
     <title>Portfólio</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
-
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+    <header>
+        <nav>
+        <img src="assets/codigo-certo.png" alt="logo da Codigo Certo">
+            <a href="#">Sobre</a>
+            <a href="#">Gostos Pessoais</a>
+            <a href="#">Motivações</a>
         </nav>
     </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Seja bem-vindo ao meu portifólio<strong class="titulo__destaque"> com um Front-end de qualidade!</strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Igor Henrique, estudante de <a class="destaque__texto">HTML, CSS, JavaScript e Java. </a> Busco oportunidade para iniciar no mercado de trabalho. Vamos conversar?</p>
-            <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-                <a class="apresentacao__links__navegacao" href="https://github.com/igorhgds">
-                    <img src="./assets/github.png">GitHub</a>
-                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/igorhgds">
-                    <img src="./assets/linkedin.png">Linkedin</a>
-                <a class="apresentacao__links__navegacao" href="https://www.instagram.com/igorhgds/">
-                    <img src="./assets/instagram.png"> Instagram</a>
-            </div>
+
+    <main>
+        <section class="apresentacao">
+            <article class="apresentacao-sobre">
+                <h1 class="titulo">Sobre</h1>
+                <img src="assets/perfilcartoon.jpeg" class="foto-perfil" alt="Minha foto em cartoon">
+                <p>Olá, Me chamo Igor Henrique, estudante de <strong>Ciência da Computação</strong> na Faculdade Descomplica. </p>
+                <p>Estou em busca de oportunidades para realizar transição de carreira, aplicando meus conhecimentos recém-adquiridos em desenvolvimento de software e aproveitando minha sólida experiência técnica em manutenção eletroeletrônica. Com formação em Análise e Desenvolvimento de Sistemas pela UNIP e cursos complementares em <strong>JavaScript, <abbr title="Hypertext Markup Language">HTML5</abbr>, <abbr title="Cascading Style Sheets">CSS3</abbr> e Java</strong> estou preparado para enfrentar os desafios do desenvolvimento. Minha trajetória profissional inclui posições como Eletricista de Manutenção e Oficial de Manutenção Elétrica, onde desenvolvi habilidades em diagnóstico, reparo e gestão de projetos. Estou ansioso para aplicar minha habilidade técnica e atenção aos detalhes em um novo contexto, contribuindo para o desenvolvimento de soluções inovadoras em programação.
+                </p>
+                <div class="tecnologias">
+                    <img class="tecnologias-logo" src="./assets/iconhtml.png" alt="Logo html">
+                    <img class="tecnologias-logo" src="./assets/iconcss.png" alt="Logo css">
+                    <img class="tecnologias-logo" src="./assets/iconjs.png" alt="Logo JavaScript">
+                    <img class="tecnologias-logo" src="./assets/iconjava.png" alt="Logo JavaScript">
+                </div>
+            </article> <!--apresentacao-sobre-->
+
+            <article class="apresentacao-gostos-pessoais">
+                <h1 class="titulo">Gostos Pessoais</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus alias et molestias itaque sapiente eaque tempora repudiandae! Commodi laborum corrupti quaerat. Modi, accusantium quo. Illum quisquam culpa odio quis modi.</p>
+            </article> <!--apresentacao-gostos-pessoais-->
+
+            <article class="apresentacao-motivacoes">
+                <h1 class="titulo">Motivações</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, amet aperiam quaerat, illum illo et unde aut tenetur voluptas corporis animi explicabo id quo excepturi facere velit debitis tempore? Harum!</p>
+            </article> <!--apresentacao-motivacoes-->
         </section>
-        <img class="apresentacao__imagem" src="./assets/perfilcartoon.jpeg" title="Foto Igor" alt="Foto cartoon do Igor">
     </main>
-    <footer class="rodape">
-        <p>Desenvolvido por Igor Henrique</p>
+
+    <footer>
+        <p>&copy;Igor Henrique</p>
     </footer>
 </body>
 </html>
