@@ -4,6 +4,7 @@
     --cor-primaria: #000000;
     --cor-secundaria: #ffffff;
     --cor-terciaria: #e53939;
+    --cor-hover: #205375;
 
     --font-primaria: 'Krona One', sans-serif;
 }
@@ -85,6 +86,29 @@ p{
     padding-bottom: 1em;
 }
 
+.minhas-redes{
+    padding: 3em 0 1em 0;
+}
+
+.minhas-redes-navegacao{
+    display: flex;
+    justify-content: center;
+    border: 3px outset var(--cor-terciaria);
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 1em 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    margin: auto;
+}
+
+.minhas-redes-navegacao:hover, .tecnologias-logo:hover{
+    background-color: var(--cor-hover);
+}
+
 strong{
     color: var(--cor-terciaria);
     font-size: 1.1em;
@@ -97,10 +121,6 @@ strong{
 .tecnologias-logo{
     border: 2px dashed var(--cor-terciaria);
     border-radius: 10px;
-}
-
-.tecnologias-logo:hover{
-    width: 10%;
 }
 
 .foto-perfil{
