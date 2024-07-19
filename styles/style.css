@@ -4,11 +4,8 @@
     --cor-primaria: #000000;
     --cor-secundaria: #ffffff;
     --cor-terciaria: #e53939;
-    --cor-hover: #205375;
 
     --font-primaria: 'Krona One', sans-serif;
-    --font-secundaria: 'Montserrat', sans-serif;
-    --font-terciaria: 'Lilita One', cursive;
 }
 
 /* width */
@@ -43,13 +40,11 @@
 
 body{
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     color: var(--cor-secundaria);
     font-family: var(--font-primaria);
     background-image: linear-gradient(to top, #161515, #000000);
-}
-
-header{
 }
 
 header nav{
@@ -104,9 +99,23 @@ strong{
     border-radius: 10px;
 }
 
+.tecnologias-logo:hover{
+    width: 10%;
+}
+
 .foto-perfil{
     border-radius: 50%;
     width: 30%;
+    padding-bottom: 2em;
+}
+
+.apresentacao-gostos-pessoais{
+    padding-bottom: 5em;
+}
+
+.apresentacao-gostos-pessoais p, .apresentacao-motivacoes p{
+    border: 1px solid var(--cor-terciaria);
+    padding: 1em;
 }
 
 footer{
@@ -115,4 +124,39 @@ footer{
 
 footer p{
     text-align: center;
+    padding: 1em;
 }
+
+@media (max-width: 730px) {
+      
+    header nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+    }
+
+    header nav img{
+        width: 20%;
+    }
+    
+    header a{
+        font-family: var(--font-primaria);
+        font-size: 100%;
+        font-weight: 600;
+        color: var(--cor-terciaria);
+
+    }
+  }
+
+  @media (max-width: 636px) {
+    header a{
+        font-family: var(--font-primaria);
+        font-size: 80%;
+        font-weight: 600;
+        color: var(--cor-terciaria);
+        margin: -1.8em;
+        padding-right: 1em;
+
+    }
+  }
