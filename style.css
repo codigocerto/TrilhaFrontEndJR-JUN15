@@ -13,7 +13,7 @@ body {
 header{
     background-color: #e53939;
     width: 100%;
-    
+    margin-bottom: 50px;
 }
 nav ul {
     display: flex;
