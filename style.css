@@ -20,5 +20,6 @@ nav ul{
     justify-content: center;
     align-items: center;
     height: 50px;
-
+    list-style: none;
+    gap: 90px;
 }
