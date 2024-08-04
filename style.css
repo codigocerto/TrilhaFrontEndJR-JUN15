@@ -14,3 +14,11 @@ img{
     max-width: 150px;
     border-radius: 50%;
 }
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
