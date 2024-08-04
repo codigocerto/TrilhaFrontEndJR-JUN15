@@ -1,25 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-img{
-    
-    max-width: 150px;
-    border-radius: 50%;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-nav ul{
+header{
+    background-color: #e53939;
+    width: 100%;
+    
+}
+nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
     list-style: none;
     gap: 90px;
+}
+img {
+  max-width: 150px;
+  border-radius: 50%;
 }
