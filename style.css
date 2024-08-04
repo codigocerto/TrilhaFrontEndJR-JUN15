@@ -23,6 +23,13 @@ nav ul {
     list-style: none;
     gap: 90px;
 }
+a{
+    text-decoration: none;
+    font-size: 1.90em;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
 img {
   max-width: 150px;
   border-radius: 50%;
