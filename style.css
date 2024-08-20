@@ -9,7 +9,12 @@ body {
   align-items: center;
   flex-direction: column;
 }
-
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 header{
     background-color: #e53939;
     width: 100%;
