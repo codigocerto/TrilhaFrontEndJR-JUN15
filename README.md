@@ -3,6 +3,18 @@
 # 📚 Trilha Inicial Front-End Jr
 Este projeto tem como objetivo criar uma página web onde os candidatos podem se apresentar, compartilhar seus gostos pessoais e explicar por que desejam fazer parte da comunidade **Codigo Certo Coders** e participar de projetos voluntários.
 
+## Índice
+- [Estrutura da Página](#)
+- [Requisitos de Design e Funcionalidade](#estrutura-da-página)
+- [Detalhes Técnicos](#requisitos-de-design-e-funcionalidade)
+- [Apreciações](#detalhes-técnicos-)
+- [Dicas para abordar o projeto](#apreciações-)
+- [Critérios de Avaliação](#dicas-para-abordar-o-projeto-)
+- [Prazo](#critérios-de-avaliação-)
+- [Instruções de Entrega](#prazo-)
+- [Como fazer a minha trilha?🤔](#instruções-de-entrega-)
+- [Contato](#desafio-da-inovação-)
+
 ## Estrutura da Página
 - **Foto:** Incluir uma foto pessoal.
 - **Informações Pessoais:** Nome completo e idade.
@@ -57,6 +69,66 @@ A data máxima para entrega das trilhas foi removida, permitindo que as pessoas 
 ### Instruções de Entrega: 📬
 Após finalizar o projeto, publique-o em uma URL pública (por exemplo, Vercel, Netlify, GitHub Pages, etc.) e preencha o [Formulário](https://forms.gle/Nmyjwna23VW9rM7m9):  
 
+---
+
+### Como fazer a minha trilha? 🤔
+
+#### [Assistir Tutorial](https://youtu.be/QsAOMt2cksI)
+
+---
+#### Guia para realização da trilha:
+
+1. **Leia todos os requisitos da sua trilha com bastante atenção 🔍.**
+
+2. **Faça o fork do repo da trilha escolhida:**
+  ![Código Certo Coders](https://servidor-estatico-eight-murex.vercel.app/codigo-certo/fork-front.jpg)
+
+---
+
+3. **Crie o fork:**
+  ![Código Certo Coders](https://servidor-estatico-eight-murex.vercel.app/codigo-certo/fork2-front.jpg)
+
+---
+
+4. **Acesse o link para clonar o repositório recém criado:**
+  ![Código Certo Coders](https://servidor-estatico-eight-murex.vercel.app/codigo-certo/front-clone.jpg)
+  Obs.: Caso tenha uma chave SSH opte por clonar utilizando ela, caso contrário, utilize o link https. 
+
+5. **Abra o seu gerenciador de arquivos do seu computador**
+
+6. **Navegue até a pasta que deseja salvar o seu projeto**
+
+7. **Crie uma pasta para seu projeto**
+
+8. **Abra a pasta do seu projeto no VSCode:**
+![Código Certo Coders](https://servidor-estatico-eight-murex.vercel.app/codigo-certo/vscode-open.jpg)
+
+---
+
+9. **Inicialize o terminal do VSCode:**
+![Código Certo Coders](https://servidor-estatico-eight-murex.vercel.app/codigo-certo/vscode-terminal.jpg)
+
+---
+
+10. **Verifique se o terminal do VSCode foi inicializado no canto inferior da página:**
+![Código Certo Coders](https://servidor-estatico-eight-murex.vercel.app/codigo-certo/vscode-terminal2.jpg)
+
+---
+
+11. **Digite o comando abaixo no terminal para poder trazer o repo remoto para seu ambiente local:**
+
+    ```shell
+    ## Síntaxe
+    git clone url .
+
+    ## Exemplo
+    git clone git@github.com:Raul-Albuquerque/TrilhaFrontEndJR-JUN15.git .
+    ```
+
+10. **Agora é só você fazer a sua mágica🔮 e subir as alterações para o repositório remoto.**
+
+<br>
+ 
 ---
 
 ### Desafio da Inovação 🚀
