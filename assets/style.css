@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* Header */
+header {
+    color: #ffffff; 
+    background-color: #e53939; 
+    padding: 17px;
+    width: 100%;
+    text-align: center; 
+    font-size: 0.6em; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s ease;
+    border-radius: 0.6rem;
+}
+
+header h1, header p {
+    margin: 10px 0; 
+
+}
+
+header p {
+    font-size: 1rem;
+}
+
+/* p/ minha foto */
+#foto {
+    margin: 20px 0; 
+}
+#foto img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 5px solid #e53939; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+#foto img:hover {
+    transform: scale(1.30); 
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; 
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+body.scroll-effect {
+    background-color: #e53939;
+}
+
+/* titulos */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Main */
+main {
+    padding: 20px;
+    max-width: 800px;
+}
+
+/* Section */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+section:hover {
+    background-color: #ffffff; 
+}
+
+/* imgs */
+
+#Java, #Vue {
+    width: 50px; 
+    height: auto; 
+    margin: 10px; 
+    transition: transform 0.2s; 
+}
+
+/* Efeito de hover */
+#Java:hover, #Vue:hover {
+    transform: scale(1.2); 
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff; 
+    padding: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Lista estilizada */
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+ul li {
+    background-color: #000000; 
+    color: #ffffff; 
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+ul li:hover {
+    background-color: #e53939; 
+}
