@@ -576,8 +576,7 @@ body{
             display: none !important;
         }
         & .second-container {
-            width: 90% !important;
-            
+            width: 100%;
             & .title{
                 font-weight: 100 !important;
                 font-family: "Righteous", sans-serif !important;
@@ -696,7 +695,9 @@ body{
             height: 500px !important;
             background-color: var(--preto);
             /* width: 50% !important; */
-
+            & .infor-texto{
+                width: 66%;
+            }
             & .custom-loader {
                 display: none !important;
             }
