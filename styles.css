@@ -1,0 +1,43 @@
+:root {
+    --background: #000000;
+    --primary-color: #ffffff;
+    --secondary-color: #e53939;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background);
+    color: var(--primary-color);
+}
+
+
+#name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#name h3 {
+    margin: .8rem;
+    font-size: 2rem;
+}
+
+  
+.card {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 20rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+} 
